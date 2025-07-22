@@ -1,0 +1,12 @@
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\bin\Debug\QuizUC00606.exe.config
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\bin\Debug\QuizUC00606.exe
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\bin\Debug\QuizUC00606.pdb
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.csproj.AssemblyReference.cache
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.Inicial.resources
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.forms.Quizz.resources
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.Properties.Resources.resources
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.csproj.GenerateResource.cache
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.csproj.CoreCompileInputs.cache
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.exe
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.pdb
+G:\GitHub\C#\UC00606\QuizUC00606\QuizUC00606\obj\Debug\QuizUC00606.exe.config

@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<perguntas>
+  <categoria nome="Desporto">
+    <nivel numero="1">
+      <pergunta>
+        <id>1</id>
+        <texto>Quantos jogadores formam uma equipe titular de vôlei?</texto>
+        <respostas>
+          <resposta>5</resposta>
+          <resposta>6</resposta>
+          <resposta>7</resposta>
+          <resposta>8</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>2</id>
+        <texto>Qual país venceu a Copa do Mundo de 2018?</texto>
+        <respostas>
+          <resposta>Croácia</resposta>
+          <resposta>Bélgica</resposta>
+          <resposta>França</resposta>
+          <resposta>Inglaterra</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>3</id>
+        <texto>Em qual esporte Michael Jordan é lendário?</texto>
+        <respostas>
+          <resposta>Baseball</resposta>
+          <resposta>Basquetebol</resposta>
+          <resposta>Futebol Americano</resposta>
+          <resposta>Tênis</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>4</id>
+        <texto>Qual atleta detém o recorde mundial dos 100m rasos?</texto>
+        <respostas>
+          <resposta>Usain Bolt</resposta>
+          <resposta>Carl Lewis</resposta>
+          <resposta>Asafa Powell</resposta>
+          <resposta>Justin Gatlin</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>5</id>
+        <texto>O que significa a sigla "FIFA"?</texto>
+        <respostas>
+          <resposta>Federação Internacional de Futebol Associado</resposta>
+          <resposta>Federação Internacional de Atletismo</resposta>
+          <resposta>Federação de Esportes Aquáticos</resposta>
+          <resposta>Federação de Tênis Mundial</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>6</id>
+        <texto>Qual país sediou as Olimpíadas de 2016?</texto>
+        <respostas>
+          <resposta>Japão</resposta>
+          <resposta>China</resposta>
+          <resposta>Brasil</resposta>
+          <resposta>Rússia</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>7</id>
+        <texto>Em qual esporte Rafael Nadal é destaque?</texto>
+        <respostas>
+          <resposta>Golfe</resposta>
+          <resposta>Tênis</resposta>
+          <resposta>Críquete</resposta>
+          <resposta>Natação</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>8</id>
+        <texto>Qual é a prova mais longa da natação olímpica?</texto>
+        <respostas>
+          <resposta>100m livre</resposta>
+          <resposta>200m medley</resposta>
+          <resposta>800m livre</resposta>
+          <resposta>1500m livre</resposta>
+        </respostas>
+        <respostaCorretaIndex>3</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>9</id>
+        <texto>Quantos Grand Slams Serena Williams venceu?</texto>
+        <respostas>
+          <resposta>18</resposta>
+          <resposta>23</resposta>
+          <resposta>30</resposta>
+          <resposta>39</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>10</id>
+        <texto>Qual clube brasileiro é conhecido como "Flamengo"?</texto>
+        <respostas>
+          <resposta>Clube de Regatas do Flamengo</resposta>
+          <resposta>Fluminense Football Club</resposta>
+          <resposta>São Paulo Futebol Clube</resposta>
+          <resposta>Santos Futebol Clube</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+    <nivel numero="2">
+      <pergunta>
+        <id>11</id>
+        <texto>Quantos jogadores existem numa equipa de hóquei no gelo?</texto>
+        <respostas>
+          <resposta>5</resposta>
+          <resposta>6</resposta>
+          <resposta>7</resposta>
+          <resposta>8</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>12</id>
+        <texto>Qual é o esporte nacional do Brasil?</texto>
+        <respostas>
+          <resposta>Vôlei</resposta>
+          <resposta>Basquete</resposta>
+          <resposta>Futebol</resposta>
+          <resposta>Capoeira</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>13</id>
+        <texto>Em qual ano o Brasil sediou sua primeira Copa do Mundo?</texto>
+        <respostas>
+          <resposta>1950</resposta>
+          <resposta>1962</resposta>
+          <resposta>1970</resposta>
+          <resposta>2014</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>14</id>
+        <texto>Qual atleta ganhou mais medalhas de ouro olímpicas?</texto>
+        <respostas>
+          <resposta>Usain Bolt</resposta>
+          <resposta>Carl Lewis</resposta>
+          <resposta>Michael Phelps</resposta>
+          <resposta>Larisa Latynina</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>15</id>
+        <texto>Qual país venceu mais Copas do Mundo?</texto>
+        <respostas>
+          <resposta>Alemanha</resposta>
+          <resposta>Brasil</resposta>
+          <resposta>Itália</resposta>
+          <resposta>Argentina</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>16</id>
+        <texto>Qual destes NÃO é um torneio de tênis do Grand Slam?</texto>
+        <respostas>
+          <resposta>Aberto da Austrália</resposta>
+          <resposta>Wimbledon</resposta>
+          <resposta>Roland Garros</resposta>
+          <resposta>Masters de Monte Carlo</resposta>
+        </respostas>
+        <respostaCorretaIndex>3</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>17</id>
+        <texto>Em que ano o basquetebol se tornou esporte olímpico?</texto>
+        <respostas>
+          <resposta>1900</resposta>
+          <resposta>1924</resposta>
+          <resposta>1936</resposta>
+          <resposta>1948</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>18</id>
+        <texto>Quantos jogadores formam uma equipe de rugby?</texto>
+        <respostas>
+          <resposta>11</resposta>
+          <resposta>13</resposta>
+          <resposta>15</resposta>
+          <resposta>17</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>19</id>
+        <texto>Qual destes esportes NÃO faz parte do triatlo olímpico?</texto>
+        <respostas>
+          <resposta>Natação</resposta>
+          <resposta>Ciclismo</resposta>
+          <resposta>Corrida</resposta>
+          <resposta>Salto em distância</resposta>
+        </respostas>
+        <respostaCorretaIndex>3</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>20</id>
+        <texto>Qual país sediará os Jogos Olímpicos de 2028?</texto>
+        <respostas>
+          <resposta>França</resposta>
+          <resposta>Austrália</resposta>
+          <resposta>Estados Unidos</resposta>
+          <resposta>Japão</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+    <nivel numero="3">
+      <pergunta>
+        <id>21</id>
+        <texto>Qual o recorde de bases completas (home runs) na MLB?</texto>
+        <respostas>
+          <resposta>Babe Ruth</resposta>
+          <resposta>Hank Aaron</resposta>
+          <resposta>Barry Bonds</resposta>
+          <resposta>Alex Rodriguez</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>22</id>
+        <texto>Quantos títulos mundiais tem Valentino Rossi no MotoGP?</texto>
+        <respostas>
+          <resposta>5</resposta>
+          <resposta>7</resposta>
+          <resposta>9</resposta>
+          <resposta>11</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>23</id>
+        <texto>Qual nadador tem mais medalhas olímpicas?</texto>
+        <respostas>
+          <resposta>Mark Spitz</resposta>
+          <resposta>Ian Thorpe</resposta>
+          <resposta>Michael Phelps</resposta>
+          <resposta>Ryan Lochte</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>24</id>
+        <texto>Qual time venceu a primeira Copa Libertadores?</texto>
+        <respostas>
+          <resposta>Santos</resposta>
+          <resposta>Peñarol</resposta>
+          <resposta>Independiente</resposta>
+          <resposta>River Plate</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>25</id>
+        <texto>Em que ano o Brasil conquistou seu primeiro ouro olímpico no futebol?</texto>
+        <respostas>
+          <resposta>1984</resposta>
+          <resposta>1988</resposta>
+          <resposta>1996</resposta>
+          <resposta>2016</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>26</id>
+        <texto>Qual jogador tem mais gols em Copas do Mundo?</texto>
+        <respostas>
+          <resposta>Pelé</resposta>
+          <resposta>Ronaldo</resposta>
+          <resposta>Miroslav Klose</resposta>
+          <resposta>Thomas Müller</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>27</id>
+        <texto>Quantos títulos consecutivos a Ferrari conquistou no Mundial de Construtores?</texto>
+        <respostas>
+          <resposta>3</resposta>
+          <resposta>5</resposta>
+          <resposta>6</resposta>
+          <resposta>8</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>28</id>
+        <texto>Qual tenista tem mais títulos de Grand Slam em simples?</texto>
+        <resposta>Margaret Court</resposta>
+        <resposta>Serena Williams</resposta>
+        <resposta>Rafael Nadal</resposta>
+        <resposta>Novak Djokovic</resposta>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>29</id>
+        <texto>Qual país venceu o primeiro Mundial de Basquetebol?</texto>
+        <respostas>
+          <resposta>Estados Unidos</resposta>
+          <resposta>Argentina</resposta>
+          <resposta>União Soviética</resposta>
+          <resposta>Brasil</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>30</id>
+        <texto>Quantas vezes o Brasil venceu a Copa América?</texto>
+        <respostas>
+          <resposta>5</resposta>
+          <resposta>7</resposta>
+          <resposta>9</resposta>
+          <resposta>11</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+  </categoria>
+  <categoria nome="História">
+    <nivel numero="1">
+      <pergunta>
+        <id>31</id>
+        <texto>Quem descobriu o Brasil em 1500?</texto>
+        <respostas>
+          <resposta>Vasco da Gama</resposta>
+          <resposta>Pedro Álvares Cabral</resposta>
+          <resposta>Cristóvão Colombo</resposta>
+          <resposta>Fernão de Magalhães</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>32</id>
+        <texto>Quando começou a Segunda Guerra Mundial?</texto>
+        <respostas>
+          <resposta>1914</resposta>
+          <resposta>1939</resposta>
+          <resposta>1945</resposta>
+          <resposta>1950</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>33</id>
+        <texto>Qual civilização construiu as pirâmides do Egito?</texto>
+        <respostas>
+          <resposta>Gregos</resposta>
+          <resposta>Romanos</resposta>
+          <resposta>Egípcios</resposta>
+          <resposta>Maias</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>34</id>
+        <texto>Quem foi o primeiro presidente do Brasil?</texto>
+        <respostas>
+          <resposta>Dom Pedro II</resposta>
+          <resposta>Deodoro da Fonseca</resposta>
+          <resposta>Getúlio Vargas</resposta>
+          <resposta>Juscelino Kubitschek</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>35</id>
+        <texto>O que foi o "Dia D" na Segunda Guerra?</texto>
+        <respostas>
+          <resposta>Bombardeio de Hiroshima</resposta>
+          <resposta>Invasão da Normandia</resposta>
+          <resposta>Batalha de Stalingrado</resposta>
+          <resposta>Queda de Berlim</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>36</id>
+        <texto>Qual imperador romano foi assassinado em 44 a.C.?</texto>
+        <respostas>
+          <resposta>Nero</resposta>
+          <resposta>Júlio César</resposta>
+          <resposta>Augusto</resposta>
+          <resposta>Calígula</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>37</id>
+        <texto>Em que ano a Proclamação da República ocorreu no Brasil?</texto>
+        <respostas>
+          <resposta>1822</resposta>
+          <resposta>1889</resposta>
+          <resposta>1922</resposta>
+          <resposta>1964</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>38</id>
+        <texto>Quem foi líder da Revolução Russa de 1917?</texto>
+        <respostas>
+          <resposta>Stalin</resposta>
+          <resposta>Lênin</resposta>
+          <resposta>Trotsky</resposta>
+          <resposta>Marx</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>39</id>
+        <texto>Qual tratado pôs fim à Primeira Guerra Mundial?</texto>
+        <respostas>
+          <resposta>Tratado de Versalhes</resposta>
+          <resposta>Tratado de Tordesilhas</resposta>
+          <resposta>Tratado de Paris</resposta>
+          <resposta>Pacto de Varsóvia</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>40</id>
+        <texto>O que foi o "Apartheid"?</texto>
+        <respostas>
+          <resposta>Segregação racial na África do Sul</resposta>
+          <resposta>Independência da Índia</resposta>
+          <resposta>Revolução Industrial</resposta>
+          <resposta>Colonização da América</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+    <nivel numero="2">
+      <pergunta>
+        <id>41</id>
+        <texto>Quem pintou a "Mona Lisa"?</texto>
+        <respostas>
+          <resposta>Van Gogh</resposta>
+          <resposta>Picasso</resposta>
+          <resposta>Da Vinci</resposta>
+          <resposta>Michelangelo</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>42</id>
+        <texto>O que foi a "Peste Negra"?</texto>
+        <respostas>
+          <resposta>Epidemia de varíola</resposta>
+          <resposta>Pandemia de gripe</resposta>
+          <resposta>Praga bubônica no século XIV</resposta>
+          <resposta>Fome na Idade Média</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>43</id>
+        <texto>Qual foi o primeiro país a industrializar-se?</texto>
+        <respostas>
+          <resposta>França</resposta>
+          <resposta>Estados Unidos</resposta>
+          <resposta>Inglaterra</resposta>
+          <resposta>Alemanha</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>44</id>
+        <texto>Em que ano foi assinada a Declaração de Independência dos EUA?</texto>
+        <respostas>
+          <resposta>1776</resposta>
+          <resposta>1789</resposta>
+          <resposta>1812</resposta>
+          <resposta>1865</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>45</id>
+        <texto>Quem foi o líder da Inconfidência Mineira?</texto>
+        <respostas>
+          <resposta>Dom Pedro I</resposta>
+          <resposta>Tiradentes</resposta>
+          <resposta>Duque de Caxias</resposta>
+          <resposta>Zumbi dos Palmares</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>46</id>
+        <texto>Qual império foi liderado por Carlos Magno?</texto>
+        <respostas>
+          <resposta>Império Romano</resposta>
+          <resposta>Império Carolíngio</resposta>
+          <resposta>Império Otomano</resposta>
+          <resposta>Império Bizantino</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>47</id>
+        <texto>Quando ocorreu a Revolução Francesa?</texto>
+        <respostas>
+          <resposta>1789</resposta>
+          <resposta>1848</resposta>
+          <resposta>1917</resposta>
+          <resposta>1776</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>48</id>
+        <texto>Quem foi o primeiro imperador do Brasil?</texto>
+        <respostas>
+          <resposta>Dom Pedro I</resposta>
+          <resposta>Dom Pedro II</resposta>
+          <resposta>Dom João VI</resposta>
+          <resposta>Deodoro da Fonseca</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>49</id>
+        <texto>O que foi a Guerra Fria?</texto>
+        <respostas>
+          <resposta>Conflito entre EUA e URSS após 1945</resposta>
+          <resposta>Primeira Guerra Mundial</resposta>
+          <resposta>Guerra do Vietnã</resposta>
+          <resposta>Conflito no Oriente Médio</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>50</id>
+        <texto>Qual evento histórico ocorreu em 1969?</texto>
+        <respostas>
+          <resposta>Independência do Brasil</resposta>
+          <resposta>Chegada do homem à Lua</resposta>
+          <resposta>Queda do Muro de Berlim</resposta>
+          <resposta>Revolução Cubana</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+    <nivel numero="3">
+      <pergunta>
+        <id>51</id>
+        <texto>Quem foi o faraó mais jovem do Egito Antigo?</texto>
+        <respostas>
+          <resposta>Ramsés II</resposta>
+          <resposta>Cleópatra</resposta>
+          <resposta>Tutancâmon</resposta>
+          <resposta>Queóps</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>52</id>
+        <texto>Em que ano ocorreu a Revolução dos Cravos em Portugal?</texto>
+        <respostas>
+          <resposta>1968</resposta>
+          <resposta>1974</resposta>
+          <resposta>1982</resposta>
+          <resposta>1990</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>53</id>
+        <texto>Quem liderou a Revolução Cubana?</texto>
+        <respostas>
+          <resposta>Fidel Castro</resposta>
+          <resposta>Che Guevara</resposta>
+          <resposta>Salvador Allende</resposta>
+          <resposta>Hugo Chávez</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>54</id>
+        <texto>Qual tratado dividiu o mundo entre Portugal e Espanha?</texto>
+        <respostas>
+          <resposta>Tratado de Versalhes</resposta>
+          <resposta>Tratado de Tordesilhas</resposta>
+          <resposta>Tratado de Paris</resposta>
+          <resposta>Pacto de Varsóvia</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>55</id>
+        <texto>Quem foi o último czar da Rússia?</texto>
+        <respostas>
+          <resposta>Pedro, o Grande</resposta>
+          <resposta>Alexandre II</resposta>
+          <resposta>Nicolau II</resposta>
+          <resposta>Ivan, o Terrível</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>56</id>
+        <texto>Qual civilização construiu Machu Picchu?</texto>
+        <respostas>
+          <resposta>Maias</resposta>
+          <resposta>Astecas</resposta>
+          <resposta>Incas</resposta>
+          <resposta>Olmeques</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>57</id>
+        <texto>Em que ano ocorreu a independência de Angola?</texto>
+        <respostas>
+          <resposta>1960</resposta>
+          <resposta>1975</resposta>
+          <resposta>1980</resposta>
+          <resposta>1990</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>58</id>
+        <texto>Quem foi o primeiro líder da União Soviética?</texto>
+        <respostas>
+          <resposta>Joseph Stalin</resposta>
+          <resposta>Leon Trotsky</resposta>
+          <resposta>Vladimir Lenin</resposta>
+          <resposta>Mikhail Gorbachev</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>59</id>
+        <texto>Qual evento histórico ocorreu em 1989?</texto>
+        <respostas>
+          <resposta>Revolução dos Cravos</resposta>
+          <resposta>Queda do Muro de Berlim</resposta>
+          <resposta>Independência do Brasil</resposta>
+          <resposta>Revolução Francesa</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>60</id>
+        <texto>Quem escreveu "O Príncipe"?</texto>
+        <respostas>
+          <resposta>Maquiavel</resposta>
+          <resposta>Dante Alighieri</resposta>
+          <resposta>Thomas Hobbes</resposta>
+          <resposta>John Locke</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+  </categoria>
+  <categoria nome="Cinema">
+    <nivel numero="1">
+      <pergunta>
+        <id>61</id>
+        <texto>Quem dirigiu "Titanic" (1997)?</texto>
+        <respostas>
+          <resposta>Steven Spielberg</resposta>
+          <resposta>James Cameron</resposta>
+          <resposta>Christopher Nolan</resposta>
+          <resposta>Quentin Tarantino</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>62</id>
+        <texto>Qual filme venceu o Oscar de Melhor Filme em 2020?</texto>
+        <respostas>
+          <resposta>Parasita</resposta>
+          <resposta>1917</resposta>
+          <resposta>Joker</resposta>
+          <resposta>Era uma vez em... Hollywood</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>63</id>
+        <texto>Quem interpretou o Coringa em "Cavaleiro das Trevas"?</texto>
+        <respostas>
+          <resposta>Jack Nicholson</resposta>
+          <resposta>Heath Ledger</resposta>
+          <resposta>Joaquin Phoenix</resposta>
+          <resposta>Jared Leto</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>64</id>
+        <texto>Qual franquia inclui "O Senhor dos Anéis"?</texto>
+        <respostas>
+          <resposta>Star Wars</resposta>
+          <resposta>Harry Potter</resposta>
+          <resposta>Marvel</resposta>
+          <resposta>Tolkien</resposta>
+        </respostas>
+        <respostaCorretaIndex>3</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>65</id>
+        <texto>Qual atriz interpretou Hermione em "Harry Potter"?</texto>
+        <respostas>
+          <resposta>Emma Stone</resposta>
+          <resposta>Emma Watson</resposta>
+          <resposta>Jennifer Lawrence</resposta>
+          <resposta>Kristen Stewart</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>66</id>
+        <texto>O que é "Forrest Gump" (1994)?</texto>
+        <respostas>
+          <resposta>Filme de guerra</resposta>
+          <resposta>Drama romântico</resposta>
+          <resposta>História de vida com eventos históricos</resposta>
+          <resposta>Ficção científica</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>67</id>
+        <texto>Qual diretor é conhecido por filmes como "Pulp Fiction"?</texto>
+        <respostas>
+          <resposta>Martin Scorsese</resposta>
+          <resposta>Quentin Tarantino</resposta>
+          <resposta>David Fincher</resposta>
+          <resposta>Wes Anderson</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>68</id>
+        <texto>Qual filme NÃO é da Marvel?</texto>
+        <respostas>
+          <resposta>Homem de Ferro</resposta>
+          <resposta>Batman: O Cavaleiro das Trevas</resposta>
+          <resposta>Vingadores</resposta>
+          <resposta>Pantera Negra</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>69</id>
+        <texto>Qual ator interpreta Tony Stark no MCU?</texto>
+        <respostas>
+          <resposta>Chris Evans</resposta>
+          <resposta>Robert Downey Jr.</resposta>
+          <resposta>Chris Hemsworth</resposta>
+          <resposta>Mark Ruffalo</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>70</id>
+        <texto>Qual filme brasileiro foi indicado ao Oscar de Melhor Filme Estrangeiro?</texto>
+        <respostas>
+          <resposta>Cidade de Deus</resposta>
+          <resposta>Tropa de Elite</resposta>
+          <resposta>Central do Brasil</resposta>
+          <resposta>O Auto da Compadecida</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+    <nivel numero="2">
+      <pergunta>
+        <id>71</id>
+        <texto>Qual filme tem a frase "May the Force be with you"?</texto>
+        <respostas>
+          <resposta>Star Trek</resposta>
+          <resposta>Star Wars</resposta>
+          <resposta>Matrix</resposta>
+          <resposta>Alien</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>72</id>
+        <texto>Quem dirigiu "Interestelar" (2014)?</texto>
+        <respostas>
+          <resposta>Steven Spielberg</resposta>
+          <resposta>Christopher Nolan</resposta>
+          <resposta>Ridley Scott</resposta>
+          <resposta>Denis Villeneuve</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>73</id>
+        <texto>Qual ator interpreta Jack Sparrow em "Piratas do Caribe"?</texto>
+        <respostas>
+          <resposta>Orlando Bloom</resposta>
+          <resposta>Johnny Depp</resposta>
+          <resposta>Geoffrey Rush</resposta>
+          <resposta>Javier Bardem</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>74</id>
+        <texto>Em qual filme aparece o personagem Vito Corleone?</texto>
+        <respostas>
+          <resposta>Scarface</resposta>
+          <resposta>Os Infiltrados</resposta>
+          <resposta>O Poderoso Chefão</resposta>
+          <resposta>Goodfellas</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>75</id>
+        <texto>Qual destes filmes é uma animação da Pixar?</texto>
+        <respostas>
+          <resposta>Shrek</resposta>
+          <resposta>Frozen</resposta>
+          <resposta>Toy Story</resposta>
+          <resposta>Madagascar</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>76</id>
+        <texto>Quem interpretou Neo em "Matrix"?</texto>
+        <respostas>
+          <resposta>Brad Pitt</resposta>
+          <resposta>Tom Cruise</resposta>
+          <resposta>Keanu Reeves</resposta>
+          <resposta>Will Smith</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>77</id>
+        <texto>Qual filme ganhou mais Oscars na história?</texto>
+        <respostas>
+          <resposta>Titanic</resposta>
+          <resposta>Ben-Hur</resposta>
+          <resposta>O Senhor dos Anéis: O Retorno do Rei</resposta>
+          <resposta>La La Land</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>78</id>
+        <texto>Quem dirigiu "Cidade de Deus"?</texto>
+        <respostas>
+          <resposta>Fernando Meirelles</resposta>
+          <resposta>José Padilha</resposta>
+          <resposta>Walter Salles</resposta>
+          <resposta>Breno Silveira</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>79</id>
+        <texto>Em que ano foi lançado "E.T. O Extraterrestre"?</texto>
+        <respostas>
+          <resposta>1977</resposta>
+          <resposta>1982</resposta>
+          <resposta>1985</resposta>
+          <resposta>1990</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>80</id>
+        <texto>Qual atriz ganhou mais Oscars?</texto>
+        <respostas>
+          <resposta>Meryl Streep</resposta>
+          <resposta>Katharine Hepburn</resposta>
+          <resposta>Cate Blanchett</resposta>
+          <resposta>Ingrid Bergman</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+    <nivel numero="3">
+      <pergunta>
+        <id>81</id>
+        <texto>Qual filme tem o personagem Anton Chigurh?</texto>
+        <respostas>
+          <resposta>Onde os Fracos Não Têm Vez</resposta>
+          <resposta>Bastardos Inglórios</resposta>
+          <resposta>No Country for Old Men</resposta>
+          <resposta>Os Suspeitos</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>82</id>
+        <texto>Quem dirigiu "Psicose" (1960)?</texto>
+        <respostas>
+          <resposta>Stanley Kubrick</resposta>
+          <resposta>Alfred Hitchcock</resposta>
+          <resposta>Orson Welles</resposta>
+          <resposta>Billy Wilder</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>83</id>
+        <texto>Qual ator interpretou Hannibal Lecter em "O Silêncio dos Inocentes"?</texto>
+        <respostas>
+          <resposta>Anthony Hopkins</resposta>
+          <resposta>Mads Mikkelsen</resposta>
+          <resposta>Brian Cox</resposta>
+          <resposta>Gary Oldman</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>84</id>
+        <texto>Em qual filme aparece a frase "Houston, we have a problem"?</texto>
+        <respostas>
+          <resposta>Apollo 13</resposta>
+          <resposta>Gravidade</resposta>
+          <resposta>Interstellar</resposta>
+          <resposta>First Man</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>85</id>
+        <texto>Qual destes filmes foi dirigido por Akira Kurosawa?</texto>
+        <respostas>
+          <resposta>Rashomon</resposta>
+          <resposta>Seven Samurai</resposta>
+          <resposta>Yojimbo</resposta>
+          <resposta>Todos os anteriores</resposta>
+        </respostas>
+        <respostaCorretaIndex>3</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>86</id>
+        <texto>Qual filme ganhou a Palma de Ouro em Cannes em 2019?</texto>
+        <respostas>
+          <resposta>Parasita</resposta>
+          <resposta>Once Upon a Time in Hollywood</resposta>
+          <resposta>Roma</resposta>
+          <resposta>Joker</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>87</id>
+        <texto>Quem interpretou a Rainha Elizabeth II em "A Rainha"?</texto>
+        <respostas>
+          <resposta>Meryl Streep</resposta>
+          <resposta>Helen Mirren</resposta>
+          <resposta>Judi Dench</resposta>
+          <resposta>Cate Blanchett</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>88</id>
+        <texto>Qual destes filmes tem a maior bilheteria da história?</texto>
+        <respostas>
+          <resposta>Avatar</resposta>
+          <resposta>Vingadores: Ultimato</resposta>
+          <resposta>Titanic</resposta>
+          <resposta>Star Wars: O Despertar da Força</resposta>
+        </respostas>
+        <respostaCorretaIndex>1</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>89</id>
+        <texto>Quem compôs a trilha sonora de "O Senhor dos Anéis"?</texto>
+        <respostas>
+          <resposta>John Williams</resposta>
+          <resposta>Hans Zimmer</resposta>
+          <resposta>Howard Shore</resposta>
+          <resposta>Ennio Morricone</resposta>
+        </respostas>
+        <respostaCorretaIndex>2</respostaCorretaIndex>
+      </pergunta>
+      <pergunta>
+        <id>90</id>
+        <texto>Qual foi o primeiro filme totalmente animado por computador?</texto>
+        <respostas>
+          <resposta>Toy Story</resposta>
+          <resposta>Shrek</resposta>
+          <resposta>Procurando Nemo</resposta>
+          <resposta>Os Incríveis</resposta>
+        </respostas>
+        <respostaCorretaIndex>0</respostaCorretaIndex>
+      </pergunta>
+    </nivel>
+  </categoria>
+</perguntas>
