@@ -37,6 +37,12 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.instruçToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.carregarXMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.carregarNovoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usarPrédefinidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.exemploXMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,9 +84,6 @@
             this.cbb_categoria.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbb_categoria.FormattingEnabled = true;
             this.cbb_categoria.Items.AddRange(new object[] {
-            "Desporto",
-            "História",
-            "Cinema",
             "Misto"});
             this.cbb_categoria.Location = new System.Drawing.Point(357, 300);
             this.cbb_categoria.Name = "cbb_categoria";
@@ -112,7 +115,8 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sairToolStripMenuItem});
+            this.sairToolStripMenuItem,
+            this.instruçToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(884, 24);
@@ -122,6 +126,7 @@
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.carregarXMLToolStripMenuItem,
             this.sairToolStripMenuItem1});
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
@@ -133,6 +138,48 @@
             this.sairToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem1.Text = "Sair";
             this.sairToolStripMenuItem1.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            // 
+            // instruçToolStripMenuItem
+            // 
+            this.instruçToolStripMenuItem.Name = "instruçToolStripMenuItem";
+            this.instruçToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.instruçToolStripMenuItem.Text = "Instruções";
+            this.instruçToolStripMenuItem.Click += new System.EventHandler(this.instrucoesToolStripMenuItem_Click);
+            // 
+            // carregarXMLToolStripMenuItem
+            // 
+            this.carregarXMLToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.carregarNovoToolStripMenuItem,
+            this.exemploXMLToolStripMenuItem,
+            this.usarPrédefinidoToolStripMenuItem});
+            this.carregarXMLToolStripMenuItem.Name = "carregarXMLToolStripMenuItem";
+            this.carregarXMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.carregarXMLToolStripMenuItem.Text = "Ficheiro XML";
+            // 
+            // carregarNovoToolStripMenuItem
+            // 
+            this.carregarNovoToolStripMenuItem.Name = "carregarNovoToolStripMenuItem";
+            this.carregarNovoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.carregarNovoToolStripMenuItem.Text = "Carregar novo...";
+            this.carregarNovoToolStripMenuItem.Click += new System.EventHandler(this.carregarNovoToolStripMenuItem_Click);
+            // 
+            // usarPrédefinidoToolStripMenuItem
+            // 
+            this.usarPrédefinidoToolStripMenuItem.Name = "usarPrédefinidoToolStripMenuItem";
+            this.usarPrédefinidoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.usarPrédefinidoToolStripMenuItem.Text = "Usar pré-definido";
+            this.usarPrédefinidoToolStripMenuItem.Click += new System.EventHandler(this.usarPrédefinidoToolStripMenuItem_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // exemploXMLToolStripMenuItem
+            // 
+            this.exemploXMLToolStripMenuItem.Name = "exemploXMLToolStripMenuItem";
+            this.exemploXMLToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exemploXMLToolStripMenuItem.Text = "Exemplo XML";
+            this.exemploXMLToolStripMenuItem.Click += new System.EventHandler(this.exemploXMLToolStripMenuItem_Click);
             // 
             // Inicial
             // 
@@ -169,6 +216,12 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem instruçToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem carregarXMLToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem carregarNovoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem usarPrédefinidoToolStripMenuItem;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ToolStripMenuItem exemploXMLToolStripMenuItem;
     }
 }
 

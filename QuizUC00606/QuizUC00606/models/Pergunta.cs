@@ -12,7 +12,7 @@ namespace QuizUC00606.models
         public string pergunta { get; set; }
         public string categoria { get; set; }
         public List<string> respostas { get; set; } = new List<string>();
-        public int dificuldade;
+        public int dificuldade { get; set; }
         public int indexRespostaCorreta {  get; set; }
 
         public Pergunta(int pergunta_id, string pergunta, string categoria, List<string> respostas, int dificuldade, int indexRespostaCorreta)
@@ -30,6 +30,13 @@ namespace QuizUC00606.models
             if (indexRespostaCorreta >= 0 && indexRespostaCorreta < respostas.Count)
                 return respostas[indexRespostaCorreta];
             return null;
+        }
+
+        // Apenas para teste!
+        public override string ToString()
+        {
+            string respostasTexto = string.Join(", ", respostas);
+            return $"ID: {pergunta_id} | Pergunta: {pergunta} | Categoria: {categoria} | Dificuldade: {dificuldade} | Respostas: [{respostasTexto}] | Correta: {indexRespostaCorreta}";
         }
     }
 }
