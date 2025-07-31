@@ -61,13 +61,40 @@ namespace QuizUC00606.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream espera {
+            get {
+                return ResourceManager.GetStream("espera", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream espetaculo {
+            get {
+                return ResourceManager.GetStream("espetaculo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Inicio_m {
+            get {
+                return ResourceManager.GetStream("Inicio_m", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&apos;1.0&apos; encoding=&apos;UTF-8&apos;?&gt;
         ///&lt;perguntas&gt;
         ///  &lt;categoria nome=&quot;Desporto&quot;&gt;
         ///    &lt;nivel numero=&quot;1&quot;&gt;
         ///      &lt;pergunta&gt;
         ///        &lt;id&gt;1&lt;/id&gt;
-        ///        &lt;texto&gt;Quantos jogadores formam uma equipe titular de vôlei?&lt;/texto&gt;
+        ///        &lt;texto&gt;Quantos jogadores formam uma equipa titular de voleibol?&lt;/texto&gt;
         ///        &lt;respostas&gt;
         ///          &lt;resposta&gt;5&lt;/resposta&gt;
         ///          &lt;resposta&gt;6&lt;/resposta&gt;
@@ -78,11 +105,43 @@ namespace QuizUC00606.Properties {
         ///      &lt;/pergunta&gt;
         ///      &lt;pergunta&gt;
         ///        &lt;id&gt;2&lt;/id&gt;
-        ///        &lt;text [rest of string was truncated]&quot;;.
+        ///        &lt;t [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string perguntas {
             get {
                 return ResourceManager.GetString("perguntas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to test1e|0|2025-07-27
+        ///teste2|3|2024-07-27
+        ///Anonimonovo|1|2023-07-27
+        ///Anonimon|1|2013-07-27
+        ///teste|0|2025-07-27
+        ///teste25|3|2025-07-27
+        ///Anonimomaisvelho|1|2015-07-27
+        ///test54e|0|2025-07-27
+        ///teste|3|2025-07-27
+        ///Anon2imo|1|2025-07-27
+        ///teste|0|2025-07-27
+        ///test12e|3|2025-07-27
+        ///Anonimo|1|2025-07-27
+        ///teste|0|2025-07-27
+        ///test54e|3|2025-07-27
+        ///Anonimo|1|2025-07-27
+        ///test54e|0|2025-07-27
+        ///teste|3|2025-07-27
+        ///Anoni12mo|1|2025-07-27
+        ///teste|0|2025-07-27
+        ///teste|3|2025-07-27
+        ///Anonimo|1|2025-07-27
+        ///teste4|0|2025-07-27
+        ///teste| [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ranking {
+            get {
+                return ResourceManager.GetString("ranking", resourceCulture);
             }
         }
     }

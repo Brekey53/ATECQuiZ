@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <perguntas>
   <categoria nome="Desporto">
     <nivel numero="1">
       <pergunta>
         <id>1</id>
-        <texto>Quantos jogadores formam uma equipe titular de vôlei?</texto>
+        <texto>Quantos jogadores formam uma equipa titular de voleibol?</texto>
         <respostas>
           <resposta>5</resposta>
           <resposta>6</resposta>
@@ -15,7 +15,7 @@
       </pergunta>
       <pergunta>
         <id>2</id>
-        <texto>Qual país venceu a Copa do Mundo de 2018?</texto>
+        <texto>Qual país venceu a Campeonato do Mundo de 2018?</texto>
         <respostas>
           <resposta>Croácia</resposta>
           <resposta>Bélgica</resposta>
@@ -26,7 +26,7 @@
       </pergunta>
       <pergunta>
         <id>3</id>
-        <texto>Em qual esporte Michael Jordan é lendário?</texto>
+        <texto>Em qual desporto Michael Jordan é lendário?</texto>
         <respostas>
           <resposta>Baseball</resposta>
           <resposta>Basquetebol</resposta>
@@ -48,7 +48,7 @@
       </pergunta>
       <pergunta>
         <id>5</id>
-        <texto>O que significa a sigla "FIFA"?</texto>
+        <texto>Qual é o significado de significa a sigla "FIFA"?</texto>
         <respostas>
           <resposta>Federação Internacional de Futebol Associado</resposta>
           <resposta>Federação Internacional de Atletismo</resposta>
@@ -59,7 +59,7 @@
       </pergunta>
       <pergunta>
         <id>6</id>
-        <texto>Qual país sediou as Olimpíadas de 2016?</texto>
+        <texto>Qual país acolheu as Olimpíadas de 2016?</texto>
         <respostas>
           <resposta>Japão</resposta>
           <resposta>China</resposta>
@@ -70,7 +70,7 @@
       </pergunta>
       <pergunta>
         <id>7</id>
-        <texto>Em qual esporte Rafael Nadal é destaque?</texto>
+        <texto>Em qual desporto Rafael Nadal é destaque?</texto>
         <respostas>
           <resposta>Golfe</resposta>
           <resposta>Tênis</resposta>
@@ -127,10 +127,10 @@
       </pergunta>
       <pergunta>
         <id>12</id>
-        <texto>Qual é o esporte nacional do Brasil?</texto>
+        <texto>Qual é o desporto nacional do Brasil?</texto>
         <respostas>
           <resposta>Vôlei</resposta>
-          <resposta>Basquete</resposta>
+          <resposta>Basquetebolbol</resposta>
           <resposta>Futebol</resposta>
           <resposta>Capoeira</resposta>
         </respostas>
@@ -138,7 +138,7 @@
       </pergunta>
       <pergunta>
         <id>13</id>
-        <texto>Em qual ano o Brasil sediou sua primeira Copa do Mundo?</texto>
+        <texto>Em qual ano o Brasil acolheu sua primeira Campeonato do Mundo?</texto>
         <respostas>
           <resposta>1950</resposta>
           <resposta>1962</resposta>
@@ -149,7 +149,7 @@
       </pergunta>
       <pergunta>
         <id>14</id>
-        <texto>Qual atleta ganhou mais medalhas de ouro olímpicas?</texto>
+        <texto>Qual atleta venceu mais medalhas de ouro olímpicas?</texto>
         <respostas>
           <resposta>Usain Bolt</resposta>
           <resposta>Carl Lewis</resposta>
@@ -160,7 +160,7 @@
       </pergunta>
       <pergunta>
         <id>15</id>
-        <texto>Qual país venceu mais Copas do Mundo?</texto>
+        <texto>Qual país venceu mais Taças do Mundo?</texto>
         <respostas>
           <resposta>Alemanha</resposta>
           <resposta>Brasil</resposta>
@@ -171,18 +171,18 @@
       </pergunta>
       <pergunta>
         <id>16</id>
-        <texto>Qual destes NÃO é um torneio de tênis do Grand Slam?</texto>
+        <texto>Qual destes NÃO é um torneio de ténis do Grand Slam?</texto>
         <respostas>
-          <resposta>Aberto da Austrália</resposta>
+          <resposta>Open da Austrália</resposta>
           <resposta>Wimbledon</resposta>
-          <resposta>Roland Garros</resposta>
+          <resposta>Open de França</resposta>
           <resposta>Masters de Monte Carlo</resposta>
         </respostas>
         <respostaCorretaIndex>3</respostaCorretaIndex>
       </pergunta>
       <pergunta>
         <id>17</id>
-        <texto>Em que ano o basquetebol se tornou esporte olímpico?</texto>
+        <texto>Em que ano o basquetebolbol se tornou desporto olímpico?</texto>
         <respostas>
           <resposta>1900</resposta>
           <resposta>1924</resposta>
@@ -193,7 +193,7 @@
       </pergunta>
       <pergunta>
         <id>18</id>
-        <texto>Quantos jogadores formam uma equipe de rugby?</texto>
+        <texto>Quantos jogadores formam uma equipa de rugby?</texto>
         <respostas>
           <resposta>11</resposta>
           <resposta>13</resposta>
@@ -204,7 +204,7 @@
       </pergunta>
       <pergunta>
         <id>19</id>
-        <texto>Qual destes esportes NÃO faz parte do triatlo olímpico?</texto>
+        <texto>Qual destes desportos NÃO faz parte do triatlo olímpico?</texto>
         <respostas>
           <resposta>Natação</resposta>
           <resposta>Ciclismo</resposta>
@@ -239,7 +239,7 @@
       </pergunta>
       <pergunta>
         <id>22</id>
-        <texto>Quantos títulos mundiais tem Valentino Rossi no MotoGP?</texto>
+        <texto>Quantos campeonatos mundiais tem Valentino Rossi no MotoGP?</texto>
         <respostas>
           <resposta>5</resposta>
           <resposta>7</resposta>
@@ -261,7 +261,7 @@
       </pergunta>
       <pergunta>
         <id>24</id>
-        <texto>Qual time venceu a primeira Copa Libertadores?</texto>
+        <texto>Qual equipa venceu a primeira Taça Libertadores?</texto>
         <respostas>
           <resposta>Santos</resposta>
           <resposta>Peñarol</resposta>
@@ -283,7 +283,7 @@
       </pergunta>
       <pergunta>
         <id>26</id>
-        <texto>Qual jogador tem mais gols em Copas do Mundo?</texto>
+        <texto>Qual jogador tem mais golos em Taças do Mundo?</texto>
         <respostas>
           <resposta>Pelé</resposta>
           <resposta>Ronaldo</resposta>
@@ -294,7 +294,7 @@
       </pergunta>
       <pergunta>
         <id>27</id>
-        <texto>Quantos títulos consecutivos a Ferrari conquistou no Mundial de Construtores?</texto>
+        <texto>Quantos campeonatos consecutivos a Ferrari conquistou no Mundial de Construtores?</texto>
         <respostas>
           <resposta>3</resposta>
           <resposta>5</resposta>
@@ -306,15 +306,17 @@
       <pergunta>
         <id>28</id>
         <texto>Qual tenista tem mais títulos de Grand Slam em simples?</texto>
-        <resposta>Margaret Court</resposta>
-        <resposta>Serena Williams</resposta>
-        <resposta>Rafael Nadal</resposta>
-        <resposta>Novak Djokovic</resposta>
+        <respostas>
+          <resposta>Margaret Court</resposta>
+          <resposta>Serena Williams</resposta>
+          <resposta>Rafael Nadal</resposta>
+          <resposta>Novak Djokovic</resposta>
+        </respostas>
         <respostaCorretaIndex>0</respostaCorretaIndex>
       </pergunta>
       <pergunta>
         <id>29</id>
-        <texto>Qual país venceu o primeiro Mundial de Basquetebol?</texto>
+        <texto>Qual país venceu o primeiro Mundial de Basquetebolbolbol?</texto>
         <respostas>
           <resposta>Estados Unidos</resposta>
           <resposta>Argentina</resposta>
@@ -325,7 +327,7 @@
       </pergunta>
       <pergunta>
         <id>30</id>
-        <texto>Quantas vezes o Brasil venceu a Copa América?</texto>
+        <texto>Quantas vezes o Brasil venceu a Taça América?</texto>
         <respostas>
           <resposta>5</resposta>
           <resposta>7</resposta>
@@ -384,7 +386,7 @@
       </pergunta>
       <pergunta>
         <id>35</id>
-        <texto>O que foi o "Dia D" na Segunda Guerra?</texto>
+        <texto>Qual é o significado de foi o "Dia D" na Segunda Guerra?</texto>
         <respostas>
           <resposta>Bombardeio de Hiroshima</resposta>
           <resposta>Invasão da Normandia</resposta>
@@ -439,7 +441,7 @@
       </pergunta>
       <pergunta>
         <id>40</id>
-        <texto>O que foi o "Apartheid"?</texto>
+        <texto>Qual é o significado de foi o "Apartheid"?</texto>
         <respostas>
           <resposta>Segregação racial na África do Sul</resposta>
           <resposta>Independência da Índia</resposta>
@@ -463,7 +465,7 @@
       </pergunta>
       <pergunta>
         <id>42</id>
-        <texto>O que foi a "Peste Negra"?</texto>
+        <texto>Qual é o significado de foi a "Peste Negra"?</texto>
         <respostas>
           <resposta>Epidemia de varíola</resposta>
           <resposta>Pandemia de gripe</resposta>
@@ -540,7 +542,7 @@
       </pergunta>
       <pergunta>
         <id>49</id>
-        <texto>O que foi a Guerra Fria?</texto>
+        <texto>Qual é o significado de foi a Guerra Fria?</texto>
         <respostas>
           <resposta>Conflito entre EUA e URSS após 1945</resposta>
           <resposta>Primeira Guerra Mundial</resposta>
@@ -630,7 +632,7 @@
       </pergunta>
       <pergunta>
         <id>57</id>
-        <texto>Em que ano ocorreu a independência de Angola?</texto>
+        <texto>Em que ano ocorreu a independência de Angoloa?</texto>
         <respostas>
           <resposta>1960</resposta>
           <resposta>1975</resposta>
@@ -733,7 +735,7 @@
       </pergunta>
       <pergunta>
         <id>66</id>
-        <texto>O que é "Forrest Gump" (1994)?</texto>
+        <texto>Qual é o significado de é "Forrest Gump" (1994)?</texto>
         <respostas>
           <resposta>Filme de guerra</resposta>
           <resposta>Drama romântico</resposta>
@@ -856,7 +858,7 @@
       </pergunta>
       <pergunta>
         <id>77</id>
-        <texto>Qual filme ganhou mais Oscars na história?</texto>
+        <texto>Qual filme venceu mais Oscars na história?</texto>
         <respostas>
           <resposta>Titanic</resposta>
           <resposta>Ben-Hur</resposta>
@@ -889,7 +891,7 @@
       </pergunta>
       <pergunta>
         <id>80</id>
-        <texto>Qual atriz ganhou mais Oscars?</texto>
+        <texto>Qual atriz venceu mais Oscars?</texto>
         <respostas>
           <resposta>Meryl Streep</resposta>
           <resposta>Katharine Hepburn</resposta>
@@ -957,7 +959,7 @@
       </pergunta>
       <pergunta>
         <id>86</id>
-        <texto>Qual filme ganhou a Palma de Ouro em Cannes em 2019?</texto>
+        <texto>Qual filme venceu a Palma de Ouro em Cannes em 2019?</texto>
         <respostas>
           <resposta>Parasita</resposta>
           <resposta>Once Upon a Time in Hollywood</resposta>

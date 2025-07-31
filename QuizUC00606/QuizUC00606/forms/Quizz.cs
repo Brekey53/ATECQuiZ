@@ -1,5 +1,7 @@
-﻿using QuizUC00606.models;
+﻿using AxWMPLib;
+using QuizUC00606.models;
 using QuizUC00606.utils;
+using ReaLTaiizor.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,10 +9,12 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using static System.Net.WebRequestMethods;
 
 namespace QuizUC00606.forms
 {
@@ -24,10 +28,31 @@ namespace QuizUC00606.forms
 
         public XDocument doc = XDocument.Load(GlobalUtils.caminho);
 
+        private void Quizz_Load(object sender, EventArgs e)
+        {
+            playerVideo.URL = @"G:\GitHub\C#\UC00606\ATECQuiZ\QuizUC00606\video.mp4";
+            playerVideo.settings.autoStart = true;
+            playerVideo.uiMode = "none";
+            playerVideo.stretchToFit = true;
+
+            playerVideo.settings.volume = 10; // Colocar o volume do video a 30%
+
+            playerVideo.Ctlcontrols.play();
+        }
+
+
+        private void playerVideo_PlayStateChange(object sender, _WMPOCXEvents_PlayStateChangeEvent e)
+        {
+            if (e.newState == 8) // Quando o vídeo termina o state fica como 8
+            {
+                playerVideo.Visible = false;
+            }
+        }
+
+
         public Quizz()
         {
             InitializeComponent();
-            //GlobalUtils.LoadXML(); atualmente obsoleto
 
             // verificar se existe perguntas suficientes neste XML, se não houver, mostra mensagem e volta para a pagina inicial
             if (!ValidarPerguntasDisponiveis())
@@ -153,40 +178,68 @@ namespace QuizUC00606.forms
                 btn_C.TextButton = pergunta.respostas[2];
                 btn_D.TextButton = pergunta.respostas[3];
 
-                listBox1.Items.Add(perguntasSelecionadas[indiceAtual].ToString()); // Teste para verificar se está tudo certo
+                //listBox1.Items.Add(perguntasSelecionadas[indiceAtual].ToString()); // Teste para verificar se está tudo certo
             }
         }
 
-        private void VerificarResposta(object sender, EventArgs e)
+        // metodo com a logica de verificação de resposta certa
+        private async void VerificarResposta(object sender, EventArgs e)
         {
-            Button botaoClicado = sender as Button;
+            // como entra neste metodo após um click no botão, é possivel fazer esta conversão de sender as Button, o botão clicado fica com o valor atribuido nem baixo e os restantes retornam null
+            CyberButton botaoClicado = sender as CyberButton;
             int respostaEscolhida = -1;
 
+            // atrubuir valores aos botões
             if (sender == btn_A)
+            {
                 respostaEscolhida = 0;
+            }
             else if (sender == btn_B)
+            {
                 respostaEscolhida = 1;
+            }
             else if (sender == btn_C)
+            {
                 respostaEscolhida = 2;
+            }
             else if (sender == btn_D)
+            {
                 respostaEscolhida = 3;
+            }
+
+            // metodo e funcionalidades para colorir o botao carregado e dar um compaso de espera
+            ColorirBotao(sender, e, Color.DarkOrange);
+            GlobalUtils.playerEspera.Play();
+            await Task.Delay(2000);
 
             Pergunta perguntaAtual = perguntasSelecionadas[indiceAtual];
             bool acertou = respostaEscolhida == perguntaAtual.indexRespostaCorreta;
 
+
             if (acertou)
             {
+                // Caso a resposta esteja certa, entra neste if e aumenta a váriavel de respostas certas total e respostas certa por nivel
                 counterCertas++;
                 counterTotal++;
-                MessageBox.Show("Resposta correta!", "✅", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ColorirBotao(sender, e, Color.ForestGreen);
+                await Task.Delay(500);
+                GlobalUtils.playerEspera.Stop();
+                MessageBox.Show("Resposta correta!", "✅", MessageBoxButtons.OK);
             }
             else
             {
-                MessageBox.Show($"Resposta errada!\nCorreta: {perguntaAtual.ObterRespostaCorreta()}", "❌", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // Entra aqui caso a resposta esteja errada
+                ColorirBotao(sender, e, Color.Firebrick);
+                await Task.Delay(500);
+                GlobalUtils.playerEspera.Stop();
+                MessageBox.Show($"Resposta errada!\nCorreta: {perguntaAtual.ObterRespostaCorreta()}", "❌", MessageBoxButtons.OK);
             }
 
+            // aumenta o indice para passar para a proxima pergunta, quer a resposta anterior esteja certa ou errada
             indiceAtual++;
+            ColorirBotao(sender, e, Color.SteelBlue);
 
+            // verificar em que pergunta está, se nao for a quinta irá sempre entrar no metodo MostrarPergunta para mostrar a proxima pergunta, caso seja a quinta irá entrar no metodo ProcessarFinalRonda para saber se irá avançar na dificuldade ou acabar o jogo
             if (indiceAtual < perguntasSelecionadas.Count)
             {
                 MostrarPergunta();
@@ -199,36 +252,60 @@ namespace QuizUC00606.forms
 
         private void ProcessarFinalRonda()
         {
+            // Entra neste if caso a dificulade  seja menor que 3 (o maximo neste contexto), e se acertou mais de 4 perguntas
             if (counterCertas >= 4 && dificuldadeAtual < 3)
             {
+                // Sobe a dificuldade e mostra quantas respostas estavam certas
                 dificuldadeAtual++;
                 MessageBox.Show($"Acertos: {counterCertas}/5 - Avançando para nível {dificuldadeAtual}!", "👏", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 
+                // Dá reset ao counter das respostas certas por dificuldade 
                 counterCertas = 0;
+
+                // Entra no metodo para filtrar as perguntas, agora com o nivel de dificuldade acima
                 SelecionarNovoConjuntoPerguntas();
 
-                if (perguntasSelecionadas.Count > 0)
+                // Verificação extra no caso de os filtros de perguntas tenham encontrado a
+                if (perguntasSelecionadas.Count >= 5)
                 {
                     MostrarPergunta();
                 }
                 else
                 {
                     MessageBox.Show("Não há mais perguntas para este nível", "Fim do Quiz", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    Inicial formInicial = new Inicial();
+
+                    if (formInicial != null)
+                    {
+                        formInicial.Show();
+                    }
+                    else
+                    {
+                        new Inicial().Show();
+                    }
+
                     this.Close();
                 }
             }
             else
             {
+                // Caso a dificuldade seja = a 3 entra no if e termina o jogo ou se não tiver acertado 4 ou mais perguntas
                 if (dificuldadeAtual == 3)
                 {
                     MessageBox.Show($"Parabéns! Você completou todos os níveis!\nAcertos totais: {counterTotal}/15", "🏆 Fim do Jogo 🏆", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    QuardarHighScore(counterTotal);
                 }
                 else
                 {
-                    MessageBox.Show($"Fim do quiz! Acertos totais: {counterTotal}/15",
-                                    "Fim do Quiz", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show($"Fim do quiz! Acertos totais: {counterTotal}/15", "🏆 Fim do Jogo 🏆", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    QuardarHighScore(counterTotal);
                 }
 
+
+                // Fecha a janela e abre a inicial
                 Inicial formInicial = new Inicial();
 
                 if (formInicial != null)
@@ -245,23 +322,104 @@ namespace QuizUC00606.forms
             }
         }
 
-        private void btn_close_Click(object sender, EventArgs e)
+        // Fecha a janela e abre a inicial
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Inicial formInicial = new Inicial();
-
-            if (formInicial != null)
+            DialogResult resultado = MessageBox.Show("Tem a certeza que pretende sair?\n Se continuar o pregresso será perdido.\n", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (resultado == DialogResult.Yes)
             {
-                formInicial.Show();  
-            }
-            else
-            {
-                
-                new Inicial().Show();
-            }
+                Inicial formInicial = new Inicial();
 
-            this.Close();
+                if (formInicial != null)
+                {
+                    formInicial.Show();
+                }
+                else
+                {
+
+                    new Inicial().Show();
+                }
+
+                this.Close();
+            }
+            
+        }
+
+        // Metodo para guardar a pontuação num ficheiro
+        private void QuardarHighScore(int respostasCorretas)
+        {
+            string username = PedirUsername();
+
+            if (!string.IsNullOrWhiteSpace(username))
+            {
+                string linha = $"{username}|{respostasCorretas}|{DateTime.Now:yyyy-MM-dd}";
+
+                FileInfo ficheiro = new FileInfo(GlobalUtils.caminhoPontuacao);
+                if (!ficheiro.Exists)
+                {
+                    FileStream fstr = ficheiro.Create();
+                    fstr.Close();
+
+                    StreamWriter write = ficheiro.AppendText();
+                    write.WriteLine(linha);
+                    write.Close();
+
+                }
+                else
+                {
+                    StreamWriter write = ficheiro.AppendText();
+                    write.WriteLine(linha);
+                    write.Close();
+                }
+
+                    MessageBox.Show("Pontuação guardada com sucesso!", "Highscore");
+            }
+        }
+
+
+        // Metodo para criar um form pequeno e customizavel apenas para pedir o username
+        // https://stackoverflow.com/questions/11854971/how-do-i-programmatically-create-a-windows-form
+        private string PedirUsername()
+        {
+            Form inputForm = new Form();
+
+            inputForm.Width = 300;
+            inputForm.Height = 150;
+            inputForm.Text = "Parabéns!";
+            inputForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+            inputForm.StartPosition = FormStartPosition.CenterScreen;
+            inputForm.MinimizeBox = false;
+            inputForm.MaximizeBox = false;
+            inputForm.ControlBox = false;
+
+            // Parametros da label
+            Label lbl_text = new Label() { Left = 10, Top = 10, Text = "Insere o teu nome/username:", Font = new Font("Segoe UI", 12, FontStyle.Regular), AutoSize = true };
+            TextBox tb_text = new TextBox() { Left = 10, Top = 37, Width = 260, Font = new Font("Segoe UI", 12, FontStyle.Regular), AutoSize = true };
+            System.Windows.Forms.Button btn_ok = new System.Windows.Forms.Button() { Text = "OK", Left = 200, Width = 70, Top = 70, DialogResult = DialogResult.OK, Font = new Font("Segoe UI", 14, FontStyle.Regular), AutoSize = true };
+
+            inputForm.Controls.Add(lbl_text);
+            inputForm.Controls.Add(tb_text);
+            inputForm.Controls.Add(btn_ok);
+            inputForm.AcceptButton = btn_ok;
+
+            return inputForm.ShowDialog() == DialogResult.OK ? tb_text.Text.Trim() : "Anonimo";
+        }
+
+
+        // Metodo para colorir o botao carregado
+        private void ColorirBotao(object sender, EventArgs e, Color cor)
+        {
+            CyberButton botaoClicado = sender as CyberButton;
+
+            // Se o clique no botao nao for nulo entra aqui
+            if (botaoClicado != null)
+            {
+                botaoClicado.ColorBackground = cor;
+
+            }
 
         }
+        
     }
     
 }
