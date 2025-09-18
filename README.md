@@ -1,2 +1,2 @@
 # ATECQuiZ
-Projeto UC00606 to develp our skill in C#
+Projeto UC00606 to develp my skill in C#
