@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "QuizUC00606\\forms\\Quizz.cs",
               "ToolTip": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Quizz.cs",
               "RelativeToolTip": "QuizUC00606\\forms\\Quizz.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T22:08:47.297Z",
               "IsPinned": true,
@@ -68,8 +68,7 @@
               "RelativeToolTip": "QuizUC00606\\forms\\Inicio.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAIwGUAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T18:03:36.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T18:03:36.259Z"
             },
             {
               "$type": "Document",
@@ -81,8 +80,7 @@
               "RelativeToolTip": "QuizUC00606\\models\\Pergunta.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T18:51:29.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T18:51:29.488Z"
             },
             {
               "$type": "Document",
@@ -94,8 +92,7 @@
               "RelativeToolTip": "QuizUC00606\\utils\\GlobalUtils.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T20:09:40.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T20:09:40.127Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "ToolTip": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Quizz.cs [Design]",
               "RelativeToolTip": "QuizUC00606\\forms\\Quizz.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-24T17:45:50.556Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-24T17:45:50.556Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "ToolTip": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Inicio.cs [Design]",
               "RelativeToolTip": "QuizUC00606\\forms\\Inicio.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T18:48:30.165Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-22T18:48:30.165Z"
             }
           ]
         }
