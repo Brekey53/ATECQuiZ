@@ -135,7 +135,7 @@ namespace QuizUC00606.forms
             indiceAtual = 0;
         }
 
-        //public void LoadXML() // Tinha sido colocado aqui, mas houve a necessidade de coloca-lo nos globais para correr entre os Forms
+        //public void LoadXML() // Tinha sido colocado aqui, mas houve a necessidade de coloca-lo nos From Inicial
         //{
         //    // Carrega apenas do caminho ESPECIFICADO
         //    XDocument doc = XDocument.Load(GlobalUtils.caminho);

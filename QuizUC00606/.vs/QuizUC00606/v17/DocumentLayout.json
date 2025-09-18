@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\quizuc00606\\forms\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|g:\\github\\c#\\uc00606\\atecquiz\\quizuc00606\\quizuc00606\\forms\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\forms\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\quizuc00606\\utils\\globalutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\utils\\globalutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\quizuc00606\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|g:\\github\\c#\\uc00606\\atecquiz\\quizuc00606\\quizuc00606\\forms\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\forms\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\quizuc00606\\utils\\globalutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\utils\\globalutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\quizuc00606\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\quizuc00606\\forms\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\forms\\quizz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\quizuc00606\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\models\\pergunta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\quizuc00606\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{51D886B2-951C-44AF-88B4-2DC94038A7EB}|QuizUC00606\\QuizUC00606.csproj|solutionrelative:quizuc00606\\forms\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "QuizUC00606\\forms\\Quizz.cs",
               "ToolTip": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Quizz.cs",
               "RelativeToolTip": "QuizUC00606\\forms\\Quizz.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T22:08:47.297Z",
               "IsPinned": true,
@@ -60,7 +60,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Inicio.cs",
+              "RelativeDocumentMoniker": "QuizUC00606\\forms\\Inicio.cs",
+              "ToolTip": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Inicio.cs",
+              "RelativeToolTip": "QuizUC00606\\forms\\Inicio.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwGUAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T18:03:36.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Pergunta.cs",
               "DocumentMoniker": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\models\\Pergunta.cs",
               "RelativeDocumentMoniker": "QuizUC00606\\models\\Pergunta.cs",
@@ -74,14 +87,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Inicio.cs",
-              "RelativeDocumentMoniker": "QuizUC00606\\forms\\Inicio.cs",
-              "ToolTip": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Inicio.cs",
-              "RelativeToolTip": "QuizUC00606\\forms\\Inicio.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAwAAAAAAAAAA==",
+              "Title": "GlobalUtils.cs",
+              "DocumentMoniker": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\utils\\GlobalUtils.cs",
+              "RelativeDocumentMoniker": "QuizUC00606\\utils\\GlobalUtils.cs",
+              "ToolTip": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\utils\\GlobalUtils.cs",
+              "RelativeToolTip": "QuizUC00606\\utils\\GlobalUtils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T18:03:36.259Z",
+              "WhenOpened": "2025-07-22T20:09:40.127Z",
               "EditorCaption": ""
             },
             {
@@ -98,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Inicio.cs [Design]",
               "DocumentMoniker": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\forms\\Inicio.cs",
               "RelativeDocumentMoniker": "QuizUC00606\\forms\\Inicio.cs",
@@ -107,19 +120,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T18:48:30.165Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GlobalUtils.cs",
-              "DocumentMoniker": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\utils\\GlobalUtils.cs",
-              "RelativeDocumentMoniker": "QuizUC00606\\utils\\GlobalUtils.cs",
-              "ToolTip": "G:\\GitHub\\C#\\UC00606\\ATECQuiZ\\QuizUC00606\\QuizUC00606\\utils\\GlobalUtils.cs",
-              "RelativeToolTip": "QuizUC00606\\utils\\GlobalUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T20:09:40.127Z",
-              "EditorCaption": ""
             }
           ]
         }

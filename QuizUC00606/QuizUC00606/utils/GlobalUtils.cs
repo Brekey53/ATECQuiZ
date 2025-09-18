@@ -20,6 +20,5 @@ namespace QuizUC00606.utils
         public static List<Pergunta> perguntas = new List<Pergunta>(); // Está global para evitar fazer tantos LoadXML() e declarar varias vezes a classe
 
         
-
     }
 }
